@@ -1,9 +1,10 @@
+.env
 .venv/
-.build-venv/
-.build-tools/
+__pycache__/
+*.pyc
+*.db
+*.pem
+backend/keys/
+backend/data/
 build/
 dist/
-release/
-__pycache__/
-*.log
-*.spec
